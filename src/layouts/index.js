@@ -7,7 +7,7 @@ import './all.sass'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet title="GGMM Web Dos" />
+    <Helmet title="GGMM Web Docs" />
     <Navbar />
     <div>{children()}</div>
   </div>
